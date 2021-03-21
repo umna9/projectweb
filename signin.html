@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h2> YallaKora</h2>
+    </header>
+    <nav id = "nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="matches.html" target="_blank">Matches</a></li>
+        <li><a href="news.html"target="_blank">News</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Players</a>
+          <div class="dropdown-content">
+            <a href="players.html" target="_blank">Egyptians</a>
+            <a href="players2.html"target="_blank">Argentinian</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Other Sports</a>
+          <div class="dropdown-content">
+            <a href="hand2.html" target="_blank">Handball</a>
+            <a href="basketball.html" target="_blank">Basketball</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <article id="sign1">
+      <section>
+        <fieldset >
+      		<legend>SignIn</legend>
+          <br>
+          <form onsubmit="return vertifypassword()">
+      			<span class="logg">Email &nbsp &nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp  </span>
+      			<input type="text" name="" placeholder="Email"><br>
+      			<span class="logg">password</span>
+      			<input type="password" name="" id="pswd" placeholder="password">
+            <span id="message" style="color:red"></span> <br>
+      			<button type="submit" class="butt">SignIn</button><br>
+            <p id="pp">Not a member?
+      			<a id = "link"href="signup.html "target="-black">Sign up now</a>
+      			<br></p>
+          </form>
+      	</fieldset>
+      </section>
+    </article>
+    <footer id="foo">
+        <p>For more information contact us <a href="contact.html">contact</a>
+        <a href="https://facebook.com" target="_blank"><img src="f.png" alt="facebook" width="2%" height="5%"></a>
+        <a href="https://twitter.com" target="_blank"><img src="t.png" alt="twitter" width="2%" height="5%"></a>
+        <a href="https://instagram.com" target="_blank"><img src="i.jpeg" alt="instagram" width="2%" height="5%"></a>
+        <br> <br></p>
+    </footer>
+    <script src="script1.js" charset="utf-8"></script>
+  </body>
+</html>

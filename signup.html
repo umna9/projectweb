@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>SignUp</title>
+  </head>
+  <body>
+    <header>
+      <h2> YallaKora</h2>
+    </header>
+    <nav id = "nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="matches.html" target="_blank">Matches</a></li>
+        <li><a href="news.html"target="_blank">News</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Players</a>
+          <div class="dropdown-content">
+            <a href="players.html" target="_blank">Egyptians</a>
+            <a href="players2.html"target="_blank">Argentinian</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Other Sports</a>
+          <div class="dropdown-content">
+            <a href="hand2.html" target="_blank">Handball</a>
+            <a href="basketball.html" target="_blank">Basketball</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div>
+    	 <div >
+          <fieldset id="sign">
+            <legend> SignUp</legend>
+            <form onsubmit="return validateForm()">
+              <span class="logg">FirstName &nbsp&nbsp&nbsp&nbsp</span>
+      	  		<input type="text" name=""id="fname" placeholder="FirstName">
+              <span id="blankMsg" style="color:red"></span> <br>
+      	  		<span class="logg">secondname</span>
+      	  		<input type="text" name=""id="lname" placeholder="secondName">
+              <span id="charMsg" style="color:red"></span> <br>
+      	  		<span class="logg">Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+      	  		<input type="text" name="" placeholder="Email"><br>
+      	  		<span class="logg">password&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+      	  		<input type="password" name="pswd2" id="pswd2" placeholder="password">
+              <span id="message1" style="color:red"></span> <br>
+              <span class="logg">confirm&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+      	  		<input type="password" name="pswd3" id="pswd3" placeholder="confirm password">
+              <span id="message2" style="color:red"></span> <br>
+      	  		<span class="logg">age&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+      	  		<input type="number" name="" placeholder="age"><br>
+      	  		<span class="logg">gender&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+      	  		<input type="radio" name="gender">female
+              <input type="radio" name="gender">male<br>
+      	  		<button type="submit" class="butt" >SignUp</button><br>
+            </form>
+          </fieldset>
+    	  	</div>
+          <footer id="foo">
+              <p>For more information contact us <a href="contact.html">contact</a>
+              <a href="https://facebook.com" target="_blank"><img src="f.png" alt="facebook" width="2%" height="5%"></a>
+              <a href="https://twitter.com" target="_blank"><img src="t.png" alt="twitter" width="2%" height="5%"></a>
+              <a href="https://instagram.com" target="_blank"><img src="i.jpeg" alt="instagram" width="2%" height="5%"></a>
+              <br> <br></p>
+          </footer>
+          <script src="script1.js" charset="utf-8"></script>
+  </body>
+</html>
